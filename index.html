@@ -6,83 +6,70 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <title>Alif Fathur | HeroBuxx</title>
+    <title>HeroBuxx - Me</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <style>
         body {
-          font-family: "Inter", sans-serif;
+            font-family: "Inter", sans-serif;
         }
       
         .background-animate {
-          background-size: 400%;
-      
-          -webkit-animation: AnimationName 1s ease infinite;
-          -moz-animation: AnimationName 1s ease infinite;
-          animation: AnimationName 15s ease infinite;
+            background-size: 400%;
+            -webkit-animation: AnimationName 1s ease infinite;
+            -moz-animation: AnimationName 1s ease infinite;
+            animation: AnimationName 15s ease infinite;
         }
       
         @keyframes AnimationName {
-          0%,
-          100% {
-            background-position: 0% 50%;
-          }
-          50% {
-            background-position: 100% 50%;
-          }
+            0%,
+            100% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
         }
-      </style>
+      
+        .border-b {
+            border-bottom-width: 2px;
+            border-bottom-style: solid;
+        }
+    </style>
 </head>
 <body>
-    <div class="w-full h-screen bg-gradient-to-r from-cyan-950 via-teal-750 to-slate-950 background-animate text-white"> 
-        <div id="content">
-
-            <div class="h-screen flex items-center justify-center">
-                <div class="bg-zinc-950 lg:mx-64 md:mx-16 rounded-2xl">
-                    <div class="grid grid-cols-1 lg:grid-cols-4 lg:gap-4 sm:px-3 sm:py-3 md:px-6 md:py-6 lg:px-12 lg:py-12">
-                        <div class="col-span-1 w-1/4 w-full">
-                            <div>
-                                <img class="rounded-full w-36 h-auto" src="https://avatars.githubusercontent.com/u/53365858?v=4">
-                            </div>
-                            <div class="py-3">
-                                <h1 class="text-xl font-bold">Alif Fathur</h1>
-                                <h1 class="text-sm text-zinc-400">@herobuxx</h1>
-                                <h1 class="text-sm text-zinc-400">Juniro Fullstack Developer and DevOps Engineer</h1>
-                            </div>
-                        </div> 
-                        <div class="col-span-3 w-3/4 w-full">
-                            <div>
-                                <p class="text-xs text-zinc-400">A 20-year-old junior frontend developer and DevOps engineer, currently juggling my college studies alongside my passion for technology. When I'm not immersed in lectures or coding sessions, you'll find me tinkering away on Custom ROMs like Halcyon Project and ConquerOS, each designed to deliver a distinctive UI and user-friendly experience. My journey into tech began at my college's IT department, where I gained hands-on experience in fullstack development and DevOps engineering. I've also lent my expertise to PixelExperience as a device maintainer. Join me on my quest to redefine digital experiences, one line of code at a time.</p>
-                            </div>
-                            <h1 class="text-xl font-bold py-3">My Projects</h1>
-                            <div>
-                                <div class="grid grid-cols-8 gap-2">
-                                    <a href="https://github.com/halcyonproject" class="bg-zinc-900 rounded-xl flex items-center justify-center h-full">
-                                        <img class="max-w-full max-h-full" src="images/logos/halcyon.png" alt="Halcyon Project - Simple and unique Stock firmware replacement.">
-                                    </a>
-
-                                    <a href="https://github.com/conquerOS" class="bg-zinc-900 rounded-xl flex items-center justify-center h-full">
-                                        <img class="w-full h-full" src="images/logos/conquer.png" alt="conquerOS - Simple yet powerful and unique firmware replacemnt. Optimized for Qualcomm based devices.">
-                                    </a>
-
-                                    <a href="https://github.com/liliumproject" class="bg-zinc-900 rounded-xl flex items-center justify-center h-full">
-                                        <img class="w-full h-full" src="images/logos/lilium.png" alt="Lilium Project - Custom ROIMs and kernel development for Android Devices.">
-                                    </a>
-                                </div>
-                            </div>
-
-                            <h1 class="text-xl font-bold py-3">Contributed Projects</h1>
-                            <div>
-                                <div class="grid grid-cols-8 gap-2">
-                                    <a href="https://github.com/pixelexperience" class="bg-zinc-900 rounded-xl flex items-center justify-center h-full">
-                                        <img class="w-full h-full" src="images/logos/pe.png" alt="Pixel like Stock firmware replacement.">
-                                    </a>
-                                </div>
-                            </div>
-                        </div> 
-                    </div>
-                </div>  
-            </div>  
-
-        </div>  
-    </div>
+    <div class="w-full h-screen bg-gradient-to-r from-cyan-950 via-teal-750 to-slate-950 background-animate flex items-center justify-center"> 
+        <div id="profile-card" class="text-center text-white">
+            <img class="w-20 h-auto pb-6 rounded-full mx-auto" src="https://avatars.githubusercontent.com/u/53365858?v=4">
+            <h1 class="font-bold text-2xl">Alif Fathur</h1>
+            <h1 class="text-stone-300 text-sm">@herobuxx</h1>
+            <div class="py-2">
+                <a href="https://instagram.com/iamherobuxx">
+                    <button class="rounded-full bg-slate-700 text-white py-2 px-4 m-2">
+                        <i class="bi bi-instagram"></i>                
+                    </button>    
+                </a>
+                <a href="https://twitter.com/iamherobuxx">
+                    <button class="rounded-full bg-slate-700 text-white py-2 px-4 m-2">
+                        <i class="bi bi-twitter"></i>                
+                    </button>
+                </a>
+                <a href="https://github.com/herobuxx">
+                    <button class="rounded-full bg-slate-700 text-white py-2 px-4 m-2">
+                        <i class="bi bi-github"></i>                
+                    </button>  
+                </a>
+                <a href="https://linkedin.com/in/herobuxx">
+                    <button class="rounded-full bg-slate-700 text-white py-2 px-4 m-2">
+                        <i class="bi bi-linkedin"></i>                
+                    </button>   
+                </a>
+            </div>
+            <div class="text-sm">
+                <a>Resume</a>
+                <span class="px-2">•</span>
+                <a>Mail</a>
+            </div>
+        </div>
+    </div>  
 </body>
 </html>
