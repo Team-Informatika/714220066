@@ -34,6 +34,39 @@
             border-bottom-width: 2px;
             border-bottom-style: solid;
         }
+
+        .skill-tag {
+            background-color: #2d3748;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 9999px;
+            margin: 2px;
+        }
+
+        .skillset-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 8px;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        .rate-section {
+            padding: 8px 16px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        .rate-section h3 {
+            font-size: 1.1rem;
+            color: #e2e8f0;
+        }
+
+        .rate-section p {
+            font-size: 1.2rem;
+            color: #cbd5e0;
+        }
     </style>
 </head>
 <body>
@@ -42,7 +75,30 @@
             <img class="w-20 h-auto pb-6 rounded-full mx-auto" src="https://avatars.githubusercontent.com/u/53365858?v=4">
             <h1 class="font-bold text-2xl">Alif Fathur</h1>
             <h1 class="text-stone-300 text-sm">@herobuxx</h1>
-            <div class="py-2">
+            <div class="text-stone-300 mt-4 px-6 w-full md:w-1/2 lg:w-1/3 mx-auto text-center">
+                <p class="text-sm">A Backend and DevOps Engineer with a strong interest in Android and Linux Kernel development. Currently serving as the Lead Developer at <a href="https://hlcyn.co" class="font-bold underline" target="_blank" rel="noopener noreferrer">Halcyon</a>. Previously employed at <a href="https://ulbi.ac.id" class="font-bold underline" target="_blank" rel="noopener noreferrer">Universitas Logistik dan Bisnis Internasional</a>.</p>
+            </div>
+            <div class="mt-6">
+                <h2 class="text-xl font-semibold text-stone-300">My Skillset</h2>
+                <div class="skillset-container mt-4">
+                    <span class="skill-tag">Go</span>
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">Android</span>
+                    <span class="skill-tag">Linux</span>
+                    <span class="skill-tag">Git</span>
+                    <span class="skill-tag">GitHub</span>
+                    <span class="skill-tag">GitLab</span>
+                    <span class="skill-tag">Jenkins</span>
+                    <span class="skill-tag">Docker</span>
+                    <span class="skill-tag">MongoDB</span>
+                    <span class="skill-tag">Flutter</span>
+                </div>
+            </div>
+            <div class="rate-section">
+                <h3>Hourly Rate</h3>
+                <p>$12.50 USD per hour</p>
+            </div>
+            <div class="py-2 mt-4">
                 <a href="https://instagram.com/iamherobuxx">
                     <button class="rounded-full bg-slate-700 text-white py-2 px-4 m-2">
                         <i class="bi bi-instagram"></i>                
